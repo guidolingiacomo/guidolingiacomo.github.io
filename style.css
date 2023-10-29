@@ -60,8 +60,11 @@ li{
     margin: 2%;
 }
 .imgQuotes{
-    width: 30px;
+    width: 20%;
 }
 .quotes{
     background: lightgray;
+}
+.quotes-w{
+    width: 80%;
 }
