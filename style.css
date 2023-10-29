@@ -59,3 +59,9 @@ ul{
 li{
     margin: 2%;
 }
+.imgQuotes{
+    width: 20%;
+}
+.quotes{
+    background: lightgray;
+}
