@@ -1,6 +1,38 @@
 h2{
     text-align: center;
+    color: rgb(48, 63, 102);
 }
 h1{
     text-align: center;
+    color: rgb(48, 63, 102);
+}
+h3{
+    color: rgb(48, 63, 102);
+}
+.header{
+    padding: 30px;
+    text-align: center;
+    background: gray;
+}
+.footer{
+    padding: 30px;
+    text-align: center;
+    background: gray;
+}
+hr{
+    width: 50%;
+    color: rgb(48, 63, 102);
+    background-color: rgb(48, 63, 102);
+    border-color: rgb(48, 63, 102);
+}
+.main{
+    background: lightgray;
+    padding: 5%;
+}
+body{
+    background: gray;
+}
+a{
+    color:  rgb(48, 63, 102);;
+    text-decoration: none;
 }
