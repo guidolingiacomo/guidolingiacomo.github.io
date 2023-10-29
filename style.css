@@ -36,3 +36,6 @@ a{
     color:  rgb(48, 63, 102);;
     text-decoration: none;
 }
+ul{
+    list-style-type: none;
+}
