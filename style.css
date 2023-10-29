@@ -39,3 +39,6 @@ a{
 ul{
     list-style-type: none;
 }
+.piece{
+    width: 2em;
+}
