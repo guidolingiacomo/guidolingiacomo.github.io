@@ -42,3 +42,10 @@ ul{
 .piece{
     width: 2em;
 }
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+
+}
