@@ -55,3 +55,6 @@ ul{
     font-weight:bold;
     color: rgb(48, 63, 102);
 }
+li{
+    margin: 2%;
+}
