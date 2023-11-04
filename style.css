@@ -43,6 +43,9 @@ ul{
 }
 .piece{
     width: 2em;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
 }
 .image{
     display: block;
@@ -88,4 +91,11 @@ body{
     margin-left: auto; 
     margin-right: auto; 
     width: 200px;
+}
+.bottomPolaroid{
+    padding: 10px 20px;
+}
+.castlingTable{
+    text-align: center; 
+    margin-top: 2%;
 }
