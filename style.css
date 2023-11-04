@@ -1,39 +1,41 @@
 h2{
     text-align: center;
-    color: rgb(48, 63, 102);
+    color: lightgray;
 }
 h1{
     text-align: center;
-    color: rgb(48, 63, 102);
+    color: lightgray;
 }
 h3{
-    color: rgb(48, 63, 102);
+    color: lightgray;
 }
 .header{
     padding: 30px;
     text-align: center;
-    background: gray;
 }
 .footer{
     padding: 30px;
     text-align: center;
-    background: gray;
 }
 hr{
     width: 50%;
     color: rgb(48, 63, 102);
     background-color: rgb(48, 63, 102);
     border-color: rgb(48, 63, 102);
+    box-shadow: 15px 10px 15px black;
 }
 .main{
-    background: lightgray;
     padding: 5%;
 }
-body{
-    background: gray;
+.container{
+	background-color: #592b16;
+	background-image: url("/dark-wood.png");
+    box-shadow: 15px 10px 15px black;
 }
+
 a{
-    color:  rgb(48, 63, 102);;
+	color: lightgray;
+    text-shadow: black 0px 0px 10px;
     text-decoration: none;
 }
 ul{
@@ -46,28 +48,44 @@ ul{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    width: 100%;
     margin-top: 2%;
-
+    border-radius: 8px;
+}
+.polaroid{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+	padding: 1%;
+    background-color: lightgray;
+    background-image: url("/purty-wood.png");
+    width: 25%;
+    box-shadow: 15px 10px 15px black;
+    border-radius: 4%;
+    
 }
 .changePage{
-    background: lightgray;
     text-align:center;
     font-weight:bold;
-    color: rgb(48, 63, 102);
+    color: darkgray;
 }
 li{
     margin: 2%;
 }
-.imgQuotes{
-    width: 25%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+body{
+	font-family: Garamond, serif;
+    text-shadow: black 0px 0px 10px;
+    font-weight: bold;
+	background-color: #325656;
+	background-image: url("/felt.png");
+    color: darkgray;
+    padding: 10%;
 }
-.quotes{
-    background: lightgray;
-}
-.quotes-w{
-    width: 80%;
+.imageHeader{
+	filter: drop-shadow(15px 10px 15px black);
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 200px;
 }
