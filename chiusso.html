@@ -14,17 +14,26 @@
         }
         .container{
 	        background-color: #FFFFFF;
-            	box-shadow: 15px 10px 15px white;
+            	box-shadow: 15px 10px 15px  #ecf0f1;
 		border-radius: 25px;
 		margin: auto;
   		width: 50%;
   		padding: 10px; 
         }
+	.vertical-center {
+	  margin: 0;
+	  position: absolute;
+	  top: 50%;
+	  -ms-transform: translateY(-50%);
+	  transform: translateY(-50%);
+	}
         </style> 
     </head>
     <body>
-        <div class="container">
-		<p>IMMAGINE</p>
-        </div>
+	<div class="vertical-center">
+	        <div class="container">
+			<p>IMMAGINE</p>
+	        </div>
+	</div>
     </body>
 </html>
